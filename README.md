@@ -10,15 +10,15 @@ Dependencies:
 
     •	python3
     
-    
     •	tensorflow 1.4.1+
-    
-    
+       
     •	opencv3, protobuf, python3-tk
 
 
 git clone https://www.github.com/ildoonet/tf-openpose
+
 cd tf-openpose
+
 pip install -r requirements.txt
 
 
@@ -34,18 +34,21 @@ Dependencies:
 
     •	H5py
     
-    
     •	Tensorflow 1.0 or later
-    
-    
+        
     •	Python 3
    
    
 git clone https://github.com/Uday038/Realtime-3D-pose-for-singleperson.git
+
 cd Realtime-3D-pose-for-singleperson
+
 mkdir data
+
 cd data
+
 download human3.6M data from  https://drive.google.com/drive/folders/1HBGmdk9UyeOXKgqnt82GiP43SDIWcHc- and store in data folder
+
 cd ..
 
 
