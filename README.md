@@ -6,8 +6,14 @@ First run the 2d pose estimator model for generating the 2D predictions
 
 
 Dependencies:
+
+
     •	python3
+    
+    
     •	tensorflow 1.4.1+
+    
+    
     •	opencv3, protobuf, python3-tk
 
 
@@ -16,7 +22,7 @@ cd tf-openpose
 pip install -r requirements.txt
 
 
-## Realtime:
+## Realtime
 python run_webcam.py --model=mobilenet_thin --resize=432x368 --camera=0 --output_json /path/to/directory
   
   
@@ -24,8 +30,14 @@ python run_webcam.py --model=mobilenet_thin --resize=432x368 --camera=0 --output
 
 
 Dependencies:
+
+
     •	H5py
+    
+    
     •	Tensorflow 1.0 or later
+    
+    
     •	Python 3
    
    
@@ -49,6 +61,6 @@ python pose3D_normal.py --camera_frame --residual --batch_norm --dropout 0.5 --m
 Python pose3D_realtime.py --camera_frame --residual --batch_norm --dropout 0.5 --max_norm --evaluateActionWise --use_sh --epochs 200 --load 4874200 --pose_estimation_json /path/to/json_directory
  
  
-## Prerequisites:
-1.	In order to run the model in realtime, first run the 2D pose estimator followed by 3D pose estimation model.
+## Prerequisites
+In order to run the model in realtime, first run the 2D pose estimator followed by 3D pose estimation model.
 
