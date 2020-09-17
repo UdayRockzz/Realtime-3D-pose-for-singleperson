@@ -53,7 +53,7 @@ cd ..
 
 
 ## Training 
-python src/predict_3dpose.py --camera_frame --residual --batch_norm --dropout 0.5 --max_norm –evaluateActionWise --use_2d
+python train.py --camera_frame --residual --batch_norm --dropout 0.5 --max_norm –evaluateActionWise --use_2d
 
 
 ## Generating 3D predictions from 2D predictions
